@@ -6,4 +6,7 @@ public interface IProductService
 {
     Task<IReadOnlyList<Product>> GetAllAsync();
     Task<IReadOnlyList<Product>> GetActiveAsync();
+    Task<IReadOnlyList<LowStockProduct>> GetLowStockAsync(int threshold);
 }
+
+public record LowStockProduct(Product Product, int UnitsSoldLast30Days);
