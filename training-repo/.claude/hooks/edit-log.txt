@@ -1,0 +1,3 @@
+2026-07-24 11:37:58  Write  D:\OB\AI-Training\2407\36-training\training-repo\.claude\agents\code-reviewer.md
+2026-07-24 11:38:23  Write  D:\OB\AI-Training\2407\36-training\training-repo\.claude\agents\test-runner.md
+2026-07-24 11:42:13  Write  D:\OB\AI-Training\2407\36-training\training-repo\.claude\skills\fix-bug\SKILL.md
