@@ -19,3 +19,4 @@
 2026-07-24 13:43:07  Write  D:\OB\AI-Training\2407\36-training\training-repo\tests\OrderHub.Tests\ProductServiceLowStockTests.cs
 2026-07-24 14:01:28  Edit  D:\OB\AI-Training\2407\36-training\documents\PROCESS.md
 2026-07-31 11:22:21  Write  D:\OB\AI-Training\2407\36-training\training-repo\src\OrderHub.Mcp\OrderHubTools.cs
+2026-07-31 11:49:02  Write  D:\OB\AI-Training\2407\36-training\training-repo\.mcp.json
