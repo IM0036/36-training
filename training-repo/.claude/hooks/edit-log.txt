@@ -23,3 +23,5 @@
 2026-07-31 13:31:24  Edit  D:\OB\AI-Training\2407\36-training\training-repo\src\OrderHub.Mcp\OrderHubTools.cs
 2026-07-31 13:50:36  Edit  D:\OB\AI-Training\2407\36-training\training-repo\src\OrderHub.Mcp\OrderHubTools.cs
 2026-07-31 13:50:52  Edit  D:\OB\AI-Training\2407\36-training\training-repo\src\OrderHub.Mcp\OrderHubTools.cs
+2026-07-31 13:55:37  Write  D:\OB\AI-Training\2407\36-training\training-repo\src\OrderHub.Mcp\OrderHubResources.cs
+2026-07-31 13:56:06  Edit  D:\OB\AI-Training\2407\36-training\training-repo\src\OrderHub.Mcp\Program.cs
