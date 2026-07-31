@@ -75,4 +75,19 @@ public class OrderHubTools(IOrderService orderService, IProductRepository produc
         });
         return JsonSerializer.Serialize(result, Json);
     }
+
+    [McpServerTool(Destructive = true, Idempotent = false), Description("取消訂單(僅 Pending/Confirmed 狀態可取消),會將品項庫存加回")]
+    public async Task<string> CancelOrder([Description("訂單 Id")] int id)
+    {
+        var result = await orderService.CancelOrderAsync(id);
+        if (!result.Success)
+            return JsonSerializer.Serialize(new { Success = false, Error = result.ErrorMessage }, Json);
+
+        return JsonSerializer.Serialize(new
+        {
+            Success = true,
+            result.Value!.Id,
+            Status = result.Value.Status.ToString()
+        }, Json);
+    }
 }
